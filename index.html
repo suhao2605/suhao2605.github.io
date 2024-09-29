@@ -1,44 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-  <title>GOOD DAY!</title>
-  <style>
-.header{grid-area: header;}
-.nav{grid-area: menu;}
-.main{grid-area: main;}
-.aside{grid-area: right;}
-.footer{grid-area: footer;}
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer right right';
-  gap: 10px;
-  background-color: #cb4e4e;
-  padding: 10px;
-}
-
-.grid-container * {
-  background-color: rgba(6, 94, 161, 0.8);;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-  color: white;
-  font-weight: bold;
-}
-</style>
+<head>
+<meta charset="utf-8">
+<title>Media Query Tryouts</title>
+<link rel="stylesheet" href="mystyles.css">
 </head>
-  <body>
-      <h1>HELLO THIS IS ANH NGUYEN!</h1>
-  <h3>Good morning !!!</h3> 
-<div class="grid-container">
-  <div class="header">Header</div>
-  <div class="nav">Menu</div>
-  <div class="main">Main</div>  
-  <div class="aside">Right</div>
-  <div class="footer">Footer</div>
+<body>
+<div class="container">
+<header>
+<h1>Nghinh Phong</h1>
+<ul>
+<li>default = orange</li>
+<li>1000px = lightblue</li>
+<li>480px = plum</li>
+<li>320px = silver</li>
+</ul>
+</header>
+<hr>
+<section>
+<figure>
+<img src="muinghinhphong.jpg" alt="Nghinh Phong" width="550" height="750">
+</figure>
+<p><Mui Nghinh Phong located in Tuy Hoa, Phu Yen, Vietnam.></p>
+    <p>Picture is taken by me in June 2024</p>
+</section>
+<hr>
+<footer></footer>
 </div>
-  </body>
+</body>
 </html>
