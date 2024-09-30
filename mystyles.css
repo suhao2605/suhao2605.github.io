@@ -17,7 +17,7 @@ float: left;
 {
 body {background-color: lightblue;}
 }
-@media only screen and (max-width : 480px)
+@media only screen and (max-width : 600px)
 {
 body {background-color: plum;}
 }
